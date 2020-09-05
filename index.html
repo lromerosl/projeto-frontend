@@ -25,10 +25,16 @@
 <body>
   <header> 
      <h1>Portal do Luciano Lima</h1> 
-     <nav>Menu de navegação principal</nav> 
+     <nav>
+        <a href="https://www.w3schools.com/html/" target="_blank">HTML</a> |
+        <a href="https://www.w3schools.com/css/" target="_blank">CSS</a> |
+        <a href="https://www.w3schools.com/js/" target="_blank">JavaScript</a> |
+        <a href="http://localhost:3000/" target="_blank">Chart Usando Socket.io</a> |
+        <a href="https://www.youtube.com/watch?v=9KK9YTyGF5c" target="_blank">Palestra Usabilidade</a>
+     </nav>
   </header>
   <main> 
-     <section> 
+     <section id="principal" about="principal"> 
         <h2>Olá a Todos. Segue os meus Dados.</h2>
         <h3>Nome: </h3>       <li>Luciano Romero Soares de Lima</li>
         <h3>Email: </h3>      <li>lromerosl@yahoo.com.br</li>
@@ -39,9 +45,17 @@
             <hr>Analista, Gestor e Professor de Informática há 39 Anos. Há 25 Anos atuando profissionalmente na Rede Sarah de Hospitais de Reabilitação.</hr>
             <hr>Formado em Engenharia Elética pela Universidade Federal da Paraíba.</hr>
             <hr>Doutorado em Ciência da Computação pela Universidade Federal de Minas Gerais.</hr>
+            <hr><b>Palestra sobre Usabilidade - SBIS - Luciano Lima</b></hr>
+            <br>
         <script>
             alert( 'Olá, Mundo WEB !' );
         </script> 
+     </section> <!-- End About Section -->
+     <section id="palestra" class="palestra">
+        <video width="320" height="200" controls>
+           <source src="UsabilidadeLucianoLima.mp4" type="video/mp4">
+           <source src="UsabilidadeLucianoLima.ogg" type="video/ogg">
+        </video>
      </section> 
      <aside> 
         Página Inicial Versionada GIT.
@@ -51,7 +65,6 @@
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
-
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
