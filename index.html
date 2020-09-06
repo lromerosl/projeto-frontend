@@ -30,7 +30,8 @@
         <a href="https://www.w3schools.com/css/" target="_blank">CSS</a> |
         <a href="https://www.w3schools.com/js/" target="_blank">JavaScript</a> |
         <a href="http://localhost:3000/" target="_blank">Chart Usando Socket.io</a> |
-        <a href="https://www.youtube.com/watch?v=9KK9YTyGF5c" target="_blank">Palestra Usabilidade</a>
+        <a href="https://www.youtube.com/watch?v=9KK9YTyGF5c" target="_blank">Palestra Usabilidade</a> | 
+        <a href="https://www.bing.com/maps?osid=6e4b2f54-378f-452b-9eb7-7fbb0a3c89b1&cp=-19.93253~-43.9887&lvl=19&v=2&sV=2&form=S00027" target="_blank">Mapa Profissional</a>
      </nav>
   </header>
   <main> 
@@ -39,11 +40,13 @@
         <h3>Nome: </h3>       <li>Luciano Romero Soares de Lima</li>
         <h3>Email: </h3>      <li>lromerosl@yahoo.com.br</li>
         <h3>Profissão: </h3>  <li>Analista de Informática em Saúde</li>
-        <h3>Contatos: </h3>   <li>(31) 99114-4226 (WhatApps) </li>
-        <h3>CV Lattes|ResearchGate|LinkedIn: </h3>  <address>http://lattes.cnpq.br/5065415982348064 | https://www.researchgate.net/profile/Luciano_Lima4 | https://www.linkedin.com/in/luciano-lima-5365b85</address> 
+        <h3>Contato: </h3>   <li>(31) 99114-4226 (Celular/WhatApps) </li>
+        <h3>CV Lattes|ResearchGate|LinkedIn: </h3>  
+        <address>http://lattes.cnpq.br/5065415982348064 | https://www.researchgate.net/profile/Luciano_Lima4 | https://www.linkedin.com/in/luciano-lima-5365b85</address> 
         <h3>Bibliografia: </h3>   
             <hr>Analista, Gestor e Professor de Informática há 39 Anos. Há 25 Anos atuando profissionalmente na Rede Sarah de Hospitais de Reabilitação.</hr>
             <hr>Formado em Engenharia Elética pela Universidade Federal da Paraíba.</hr>
+            <hr>Mestrado em Informática pela Universidade Federal da Paraíba.</hr>
             <hr>Doutorado em Ciência da Computação pela Universidade Federal de Minas Gerais.</hr>
             <hr><b>Palestra sobre Usabilidade - SBIS - Luciano Lima</b></hr>
             <br>
@@ -51,29 +54,59 @@
             alert( 'Olá, Mundo WEB !' );
         </script> 
      </section> <!-- End About Section -->
-     <section id="palestra" class="palestra">
+     <section id="palestra" about="palestra" class="palestra">
         <video width="320" height="200" controls>
            <source src="UsabilidadeLucianoLima.mp4" type="video/mp4">
            <source src="UsabilidadeLucianoLima.ogg" type="video/ogg">
         </video>
      </section> 
-     <aside> 
-        Página Inicial Versionada GIT.
-     </aside> 
+    <!-- ======= Contact Section ======= -->
+    <section id="contato" about="palestra"class="contato">
+      <div class="container">
+
+        <div id="titulo_secao" class="titulo_secao">
+          <h2>Contatos Detalhados</h2>
+          <p>Seguem meus contatos mais detalhados. Estou à Disposição.</p>
+        </div>
+        <div class="info">
+
+              <div class="email">
+                <h4>Email:</h4>
+                <p>lromerosl@yahoo.com.br</p>
+              </div>
+
+              <div class="phone">
+                <h4>Celular/WhatApps:</h4>
+                <p>+55 31 99114-4226</p>
+              </div>
+
+              <div class="endereco">
+                <h4>Endereço Residencial:</h4>
+                <p>Rua Quintiliano Silva 37 - Santo Antônio, Belo Horizonte - Minas Gerais.</p>
+                <p>Brasil - CEP: 30350-040.</p>
+              </div>
+
+              <div class="endereco">
+                <h4>Endereço Profissional:</h4>
+                <p>Avenida Amazonas 5953 - Gameleira, Belo Horizonte - Minas Gerais.</p>
+                <p>Brasil - CEP: 30510-000.</p>
+              </div>
+
+              <div class="maps">
+                <h4>Mapa:</h4>
+                <iframe width="350" height="350" frameborder="0" src="https://www.bing.com/maps/embed?h=350&w=350&osid=763d89e0-2133-4069-a985-4bf37ddb442b&cp=-19.93892~-43.945077&lvl=18&typ=d&sty=r&src=SHELL&v=2&sV=2&form=S00027" scrolling="no">
+                </iframe>
+                <div style="white-space: nowrap; text-align: center; width: 350px; padding: 6px 0;">
+                  <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?osid=763d89e0-2133-4069-a985-4bf37ddb442b&cp=-19.93892~-43.945077&amp;sty=r&amp;lvl=18&amp;&v=2&sV=2&form=S00027">Exibir Mapa Grande</a> &nbsp; | &nbsp;
+                  <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps?rtp=adr.Rua%20Conselheiro%20Quintiliano%20Silva,37,Santo%20Antonio,Belo%20Horizonte~adr.Avenida%20Amazonas,5953,Gameleira,Belo%20Horizonte&rtop=0~1~0&toWww=1&redig=06A3C98000D444C4934C167B4D810994">Obter Trajeto</a>
+                </div>
+               </div>
+        </div>
+     </section><!-- End Contact Section -->
+     <footer>
+        <p> <b> <h6> Página Criada por Luciano Lima - Aplicação Versionada pelo GIT. </h6> </b> </p>
+     </footer>
   </main>
-  <!-- Add your site or application content here -->
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
- <footer>
-    Página Criada por Luciano Lima.
- </footer>
 </body>
 
 </html>
